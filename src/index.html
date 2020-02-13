@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <title>Widget BitcoinValue</title>
+        <style media="screen">
+          body{
+            padding: 1rem;
+            background-color: #f1f3f4;
+          }
+          #container{
+            display: flex;
+            margin-left: 25%;
+            margin-right: 25%;
+          }
+        </style>
+    </head>
+    <body>
+<div id="container">
+  <div style="margin-right:4rem">
+    <h1>Valor Moneda</h1>
+    <select id="moneda" name="">
+
+    </select>
+    <br>
+    <a>1 Bitcoin = <span id="valor"></span></a>
+
+  </div>
+  <div>
+    <h1>Conversión</h1>
+    <label id="nombreM"></label>
+    <br>
+    <input id="numero" type="number" value="0">
+    <label> = <span id="conversion">0</span> Bitcoins</label>
+  </div>
+</div>
+
+
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+      <script src="main.js"></script>
+    </body>
+</html>
